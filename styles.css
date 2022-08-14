@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: black;
+}
