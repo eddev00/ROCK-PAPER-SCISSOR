@@ -1,0 +1,163 @@
+@font-face {
+  font-family: Geo;
+  src: url(fonts/Geo-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-family: "Geo", sans-serif;
+}
+
+body {
+  background-color: #fe6964;
+}
+
+.Container {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Container h1 {
+  text-align: center;
+
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+
+  background-color: #f7f4a6;
+  padding: 0.63rem 1rem;
+
+  box-shadow: 0.6rem 0.6rem 0.25rem rgba(0, 0, 0, 0.67);
+  border-radius: 13px;
+}
+
+.center {
+  margin-left: 6%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5em;
+  gap: 4.8em;
+}
+
+#player-choices div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.12em;
+  height: 5.25rem;
+  width: 5.44rem;
+  align-items: center;
+  background-color: #f7f4a6;
+
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.56);
+  border-radius: 47px;
+}
+
+.center-board {
+  width: 36.19rem;
+  height: 22.88rem;
+  background-color: #f7f4a6;
+  align-items: center;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.56);
+  border-radius: 35px;
+}
+
+.reset {
+  margin-top: 80px;
+  text-align: center;
+
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+
+  background-color: #f7f4a6;
+  padding: 0.63rem 1rem;
+
+  width: 9.19rem;
+  height: 3.75rem;
+  box-shadow: 0.6rem 0.6rem 0.25rem rgba(0, 0, 0, 0.67);
+  border-radius: 13px;
+}
+.reset a {
+  text-decoration: none;
+}
+
+.center-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.center-board .hearts {
+  display: flex;
+  width: inherit;
+
+  justify-content: space-between;
+}
+.center-board .hearts .player-lives {
+  margin: 10px 20px;
+}
+.center-board .hearts .computer-lives {
+  margin: 10px 20px;
+}
+
+.selections {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.computer-selection img {
+  transform: scaleX(-1);
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin-bottom: 10px;
+  background: #fe6964;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 13px;
+}
+.result span {
+  margin: 6px 18px;
+  font-family: "Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+
+  color: #ffffff;
+}
+
+.Computer-interaction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Computer-interaction p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 159px;
+  height: 79px;
+  left: 1063px;
+  top: 438px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 13px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 13px;
+}
