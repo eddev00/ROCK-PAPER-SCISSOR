@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Geo;
+  src: url(/Geo-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Geo", sans-serif;
+}
+body {
+  background-color: #ff827e;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 71px;
+  width: 525px;
+  height: 71px;
+  left: 458px;
+  top: 40px;
+
+  padding: 6px 20px;
+  background-color: #f7f4a6;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.67);
+  border-radius: 13px;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 400px;
+  left: 427px;
+  top: 191px;
+
+  background: #f7f4a6;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.67);
+  border-radius: 35px;
+}
+
+.RPS-image {
+  width: 344px;
+  height: 280px;
+}
+.Play {
+  display: flex;
+  justify-content: center;
+  width: 281px;
+  height: 102px;
+  left: 580px;
+  top: 770px;
+
+  background: #f7f4a6;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.67);
+  border-radius: 13px;
+  align-items: center;
+}
+
+.btn-Play {
+  text-align: center;
+  text-decoration: none;
+  width: 237px;
+  height: 71px;
+  left: 602px;
+  top: 785px;
+
+  font-family: "Geo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 71px;
+
+  color: #000000;
+}
